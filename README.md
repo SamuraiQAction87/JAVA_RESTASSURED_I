@@ -29,6 +29,7 @@ O projeto está estruturado em pacotes e classes com focos complementares:
   * Validação de cabeçalho de autenticação HTTP (`Authorization: Bearer`).
   * Asserção de status code `200 OK`.
   * Extração e navegação em payloads complexos usando **JsonPath** e `Response` (ex: posições em tabela de campeonatos).
+  * [**Código: ApiFutebolTests.java**](https://github.com/SamuraiQAction87/JAVA_RESTASSURED_I/blob/main/restassured-testeapi/src/test/java/apifutebol/ApiFutebolTests.java)
 
 ### 2. 🛠️ API Laboratório Local (Swagger UI)
 * **Classes:** `EndPointExerciciosTests` e `EndPointPrimeiraApiTests`
@@ -37,6 +38,8 @@ O projeto está estruturado em pacotes e classes com focos complementares:
   * Envio e validação de **Query Parameters** (ex: busca por palavras e validações de CPF).
   * Centralização de parâmetros de requisição utilizando `RequestSpecification` e `RequestSpecBuilder`.
   * Validação de corpos de resposta (Payload) com `Matchers.containsString`.
+  * [**Código: EndPointExerciciosTests.java**](https://github.com/SamuraiQAction87/JAVA_RESTASSURED_I/blob/main/restassured-testeapi/src/test/java/apilocal/EndPointExerciciosTests.java)
+  * [**Código: EndPointPrimeiraApiTests.java**](https://github.com/SamuraiQAction87/JAVA_RESTASSURED_I/blob/main/restassured-testeapi/src/test/java/apilocal/EndPointPrimeiraApiTests.java)
 
 ### 3. 🐶 API Swagger PetStore (Operações POST e Payloads JSON)
 * **Classe:** `ApiPetShopTests`
@@ -46,6 +49,7 @@ O projeto está estruturado em pacotes e classes com focos complementares:
   * Definição explícita de cabeçalho de conteúdo (`Content-Type: application/json`).
   * Envio de payloads estruturados no corpo da requisição utilizando listas de objetos JSON (Array JSON).
   * Validação de código de status HTTP `200 OK` no processamento do cadastro.
+  * [**Código: ApiPetShopTests.java**](https://github.com/SamuraiQAction87/JAVA_RESTASSURED_I/blob/main/restassured-testeapi/src/test/java/apipetshop/ApiPetShopTests.java)
 ---
 
 #
